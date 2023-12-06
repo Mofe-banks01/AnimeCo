@@ -76,7 +76,7 @@ body {
 .main-nav {
   display: flex;
   flex-direction: row;
-  gap: 31.75rem;
+  gap: 29.75rem;
 }
 .main-nav-list {
   display: flex;
@@ -85,7 +85,7 @@ body {
   list-style-type: none;
   font-family: "Nunnito-Light";
   font-weight: 100;
-  gap: 2.575rem;
+  gap: 2.975rem;
  
 }
 
