@@ -12,8 +12,8 @@
 @font-face {
   font-family: "Nova-Square";
   font-weight: 400;
- src : url(Nova-Square/novasquare-regular-webfont.woff) format(woff),
-  url(Nova-Square/novasquare-regular-webfont.woff2) format(woff2);
+  src: url(Nova-Square/novasquare-regular-webfont.woff) format(woff),
+    url(Nova-Square/novasquare-regular-webfont.woff2) format(woff2);
 }
 @font-face {
   font-family: "Nunnito-Regular";
@@ -29,6 +29,11 @@
   font-family: "Nunnito-Extrabold";
   font-weight: 400;
   src: url(Nunito_Sans/static/NunitoSans_10pt-ExtraBold.ttf) format(woff);
+}
+@font-face {
+  font-family: "Quicksand";
+  font-weight: 120;
+  src: url(Quicksand/Quicksand-VariableFont_wght.ttf) format(tff);
 }
 /* //////////////////////////////////// */
 .landing-page-header-container {
@@ -81,18 +86,17 @@ body {
 .main-nav-list {
   display: flex;
   flex-direction: row;
-  
+
   list-style-type: none;
   font-family: "Nunnito-Light";
   font-weight: 100;
   gap: 2.975rem;
- 
 }
 
-.main-nav-item{
+.main-nav-item {
   margin-bottom: 8.75px;
 }
-.bell-icon{
+.bell-icon {
   background-color: rgb(255, 0, 0);
 }
 .icon {
@@ -135,11 +139,11 @@ body {
   font-weight: 10;
   font-size: 1.7rem;
 }
-.back-icon{
+.back-icon {
   -webkit-transition: all 0.3s;
   font-size: 1.7rem;
 }
-.back-icon:hover{
+.back-icon:hover {
   color: aquamarine;
 }
 /* ///////////////////////////////////////// */
@@ -148,7 +152,7 @@ body {
 /* /////////////PAGE NAME */
 .large-text {
   font-size: 4.975rem;
- font-family: "Nova-Square";
+  font-family: "Nova-Square";
   font-weight: 400;
 }
 .hero-image-bold-text {
@@ -192,20 +196,20 @@ body {
 .hero-img-box1-container {
   max-width: 55.25rem;
 }
-.hero-img-box-2-container{
+.hero-img-box-2-container {
   max-width: 55.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.hero-img-box-2-container-icon-container{
+.hero-img-box-2-container-icon-container {
   display: flex;
   flex-direction: row;
   gap: 3.75rem;
   max-width: 20rem;
   margin-left: 19rem;
 }
-.icon-container{
+.icon-container {
   background-color: red;
   width: 2rem;
   height: 2rem;
@@ -216,24 +220,23 @@ body {
   padding-left: 2rem;
   padding-right: 2rem; */
 }
-.back-icon{
+.back-icon {
   width: 2.5rem;
   height: auto;
 }
-.cont-icons{
+.cont-icons {
   font-size: 2.5rem;
 }
 .hero-img-box1 {
   background-image: url(https://wallpapers.com/images/high/most-badass-demon-slayer-characters-r5qpd691989mwcxg.webp);
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   width: 50.75rem;
   height: 30.75rem;
   border-radius: 35.775px;
   -webkit-transition: all 0.9995s;
- 
 }
-.hero-img-box2{
+.hero-img-box2 {
   background-image: url(https://wallpapers.com/images/high/demon-slayer-4k-hashira-sbbkjpn3nlemh549.webp);
   width: 50.75rem;
   height: 23.75rem;
@@ -242,13 +245,11 @@ body {
   -webkit-transition: all 0.9995s;
 }
 
-.hero-img-box1:hover{
+.hero-img-box1:hover {
   background-image: url(https://wallpapers.com/images/high/dark-demon-slayer-sagmrd4hrpbf816r.webp);
   cursor: pointer;
-  
-
 }
-.play-icon{
+.play-icon {
   font-size: 5rem;
   max-width: 15rem;
   max-height: 15rem;
@@ -257,29 +258,51 @@ body {
   border-radius: 20%;
 }
 
-.hero-img-box1-icon-cont{
- text-align: center;
+.hero-img-box1-icon-cont {
+  text-align: center;
 }
-.button-bar-div-cont{
+.button-bar-div-cont {
   display: flex;
   flex-direction: row;
   max-width: 50.775rem;
   margin: 1.25rem 2.75rem;
-  gap: 7.775rem;
+  gap: 1.2rem;
 }
-.button-bar-div{
-  background-color: black;
-  color: blueviolet;
-  max-width: 5rem;
-  margin: 0 1.1rem;
-  margin: 1.25rem 2.75rem;
-  gap: 7.775rem;
-  padding: 0rem;
-  border-radius: 35%;
+.button-bar-div {
+  border-radius: 25.15px;
+  background-color: #f3f3ee;
+  max-width: 10.775rem;
+  max-height: 5.75rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+  -webkit-transition: all 0.975s;
 }
-.hero-img-box1-subtext-cont{
-   max-width: 150.775rem;
-   max-height: 20rem;
-
+.button-bar-div:hover {
+  border-radius: 25.15px;
+  background: #f3f3ee;
+  box-shadow: -5px 5px 10px #d3d3cf, 5px -5px 10px #ffffff;
+}
+.button-bar-text {
+  font-family: "Nunnito-Regular";
+  font-weight: 120;
+}
+.button-bar-text-link {
+  margin-top: 30px;
+  text-decoration: none;
+}
+.button-bar-text-link:hover {
+  color: black;
+}
+.hero-img-box1-subtext-cont {
+  max-width: 150.775rem;
+  max-height: 20rem;
   margin: 1.25rem 2.45rem;
+}
+.hero-img-box1-subtext {
+  font-family: "Nunnito-Light";
+  font-weight: 100;
 }
