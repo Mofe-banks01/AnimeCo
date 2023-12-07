@@ -46,7 +46,7 @@ body {
 /*///////////HEADER///////////////*/
 .header {
   max-width: 85.75rem;
-  height: 4.75rem;
+  max-height: 20.75rem;
   margin: 0 auto;
   padding: 1rem 1rem 1rem 1rem;
   align-items: end;
@@ -187,11 +187,11 @@ body {
 /* ////////////// IMAGES/////////*/
 .hero-img-container {
   padding: 2rem;
-  max-width: 150rem;
+  max-width: 200rem;
   display: flex;
   flex-direction: row;
   gap: 8.5px;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 .hero-img-box1-container {
   max-width: 55.25rem;
